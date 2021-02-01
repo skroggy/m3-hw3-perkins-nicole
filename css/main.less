@@ -1,0 +1,56 @@
+@import "variables";
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    font-family: @roboto;
+    font-weight: 400;
+    font-size: 16px;
+    color: @main;
+
+    span {
+        color: @red;
+        text-transform: uppercase;
+    }
+
+    button {
+        background-color: @yellow;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 500;
+        border-radius: 8px;
+    }
+
+    h1 {
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+}
+
+header {
+    background-image: url("../img/banner-bg.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+
+    nav {
+        background-color: @yellow;
+        font-size: 18px;
+        height: 100px;
+
+        ul {
+            padding: 3% 0 0 7%;
+
+            li {
+                display: inline;
+                padding-right: 3%;
+                font-weight: 500;
+            }
+        }
+       
+    }
+
+}
