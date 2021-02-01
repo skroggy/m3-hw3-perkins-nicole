@@ -13,18 +13,12 @@ body {
     color: @main;
     margin: 0 auto;
 
-    span {
-        color: @red;
-        text-transform: uppercase;
-    }
+   span {
+       .rspan();
+   }
 
     button {
-        background-color: @yellow;
-        text-transform: uppercase;
-        font-size: 18px;
-        font-weight: 500;
-        border-radius: 8px;
-        padding: 1% 2%;
+        .butn();
     }
 
     h1 {
@@ -63,8 +57,7 @@ header {
         background-image: url("../img/banner-bg.png");
         background-repeat: no-repeat;
         background-size: auto;
-        background-attachment: fixed;
-        background-position: 50% -120%;
+        background-position: 50% 70%;
         width: 100%;
         min-height: 200px;
         max-height: 500px;
